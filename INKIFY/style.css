@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #97999c;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+  }
+
+  .logo {
+    width: 40px;
+    display: block;
+    margin: 10px auto 0px auto; 
+  }
+
+  .brand {
+    font-family: "Bruno Ace", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 20px;
+    text-align: center; /* Center the brand name */
+  }
+
+  .heading {
+    text-align: center; /* Center the heading */
+    margin-bottom: 0px; /* Add some bottom margin */
+  }
+
+  
+  .container {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  #signatureCanvas {
+    border: 2px solid #333;
+    width: 100%;
+    height: auto;
+    max-height: 400px; /* Set maximum height */
+    background-color: #fff;
+    margin-bottom: 20px;
+    image-rendering: pixelated; /* Ensures crisp rendering */
+  }
+
+  button, select, input[type="color"], input[type="range"] {
+    margin: 10px;
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover, select:hover, input[type="color"]:hover, input[type="range"]:hover {
+    background-color: #0056b3;
+  }
+
+  button:active, select:active, input[type="color"]:active, input[type="range"]:active {
+    background-color: #0056b3;
+    transform: translateY(1px);
+  }
+
+  @media only screen and (max-width: 768px) {
+  
+    body{
+      width: 87%;
+    }
+.logo{
+  margin-left: 140px;
+  width: 90px;
+}
+.brand{
+  margin: 10px auto 0px 60px;
+  font-size: 30px;
+  letter-spacing: 20px;
+}
+.container {
+margin-left: 3px;
+}
+
+  }
